@@ -1,0 +1,86 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url('darkgrey-asphalt.jpg');
+}
+
+.header{
+background-color: rgb(18, 11, 1);
+height: 80px;
+margin-bottom: 100px;
+margin-top: 50px;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    height: 100%;
+    align-items: center;
+    
+}
+
+.menu>li{
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 18px;
+    font-weight: 100;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+    grid-template-rows: 200px 200px;
+    gap: 20px;
+    justify-content: center;
+}
+
+.item{
+    width: 200px;
+    height: 200px;
+    border: black solid 1px;
+    border-radius: 10px;
+}
+
+.item:hover{
+    border-color: rgb(250, 246, 246);
+}
+
+.img_1{
+    background-image: url('honda.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 92%;
+}
+.img_2{
+    background-image: url('hyndai.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 92%;
+}
+
+.img_3{
+    background-image: url('lexus.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 92%;
+}
+.img_4{
+    background-image: url('mazda.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 92%;
+}
+
+.img_5{
+    background-image: url('nissan.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.img_6{
+    background-image: url('skoda.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 92%;
+}
